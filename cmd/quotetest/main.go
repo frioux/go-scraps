@@ -15,5 +15,5 @@ func main() {
 		os.Exit(1)
 	}
 	fmt.Println("shellquote:", q)
-	fmt.Println("gsq:", gsq.Join(os.Args[1:]...))
+	fmt.Println("       gsq:", gsq.Join(os.Args[1:]...))
 }
